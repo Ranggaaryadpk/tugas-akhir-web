@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>	
+			MY BIOGRAFI
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="w3.css">
+		<link rel="icon" href="Icon.jpg">
+	</head>
+	<body class="w3-dark-gray">
+		<div class="w3-center">
+			<img src="Foto_TOP.jpeg" style="width:100%; height:30%">
+		</div>
+		<div class="w3-bar w3-black">
+			<button class="w3-bar-item w3-button w3-round-large" onclick="openFoto('hobby')">My Hobby</button>
+			<button class="w3-bar-item w3-button w3-round-large" onclick="openFoto('penyanyi')">Penyanyi Favorite</button>
+			<button class="w3-bar-item w3-button w3-round-large" onclick="openFoto('game')">Game Favorite</button>
+			<button class="w3-bar-item w3-button w3-round-large" onclick="openFoto('organisasi')">Organisasi</button>
+			<div class="w3-dropdown-hover w3-black">
+				<button class="w3-button w3-round-large">Education</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-blue-gray w3-round-large">
+					<button class ="w3-bar-item w3-button w3-round-large" onclick="openFoto('sd')">SD</button>	
+					<button class ="w3-bar-item w3-button w3-round-large" onclick="openFoto('smp')">SMP</button>
+					<button class ="w3-bar-item w3-button w3-round-large" onclick="openFoto('sma')">SMA</button>
+					<button class ="w3-bar-item w3-button w3-round-large" onclick="openFoto('universitas')">UNIVERSITAS</button>
+				</div>
+			</div>
+			<button class="w3-bar-item w3-button w3-round-large" onclick="openFoto('myprofile')">My Profile</button>
+		</div>
+			<div class="w3-container">
+				<div id="hobby" class="w3-panel foto w3-animate-zoom w3-gray w3-round-xlarge" style="display:none">
+					<center>
+						<h1><b> My Hobby
+					</center>
+					<center>
+						<img src="Hobby/Mendengarkan_Musik.jpg" class="w3-panel" style="width:24%"> 
+						<img src="Hobby/Membaca_Novel.jpg" class="w3-panel" style="width:24%"> 
+						<img src="Hobby/Bermain_Game.jpg" class="w3-panel" style="width:24%"> 
+						<img src="Hobby/Scroll_Tiktok.jpg" class="w3-panel" style="width:24%"> 
+					</center>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="penyanyi" class="w3-panel foto w3-animate-top w3-gray w3-round-xlarge" style="display:none">
+					<center>
+						<h1><b> Penyanyi Favorite
+					</center>
+					<center>
+						<img src="Penyanyi/Tulus.jpg" class="w3-panel" style="width:20%"> 
+						<img src="Penyanyi/Noah.jpg" class="w3-panel" style="width:28%"> 
+						<img src="Penyanyi/Spyair.jpg" class="w3-panel" style="width:28%"> 
+						<img src="Penyanyi/Budi_Doremi.jpg" class="w3-panel" style="width:20%"> 
+					</center>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="game" class="w3-panel foto w3-animate-bottom w3-gray w3-round-xlarge" style="display:none">
+					<center>
+						<h1><b> Game Favorite
+					</center>
+					<center>
+						<img src="Game/Mobile_Legends.jpeg" class="w3-panel" style="width:28%"> 
+						<img src="Game/FC_Mobile.jpg" class="w3-panel" style="width:32%"> 
+						<img src="Game/Clash_Of_Clans.jpg" class="w3-panel" style="width:34%"> 
+					</center>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="organisasi" class="w3-panel foto w3-animate-top w3-gray w3-round-xlarge" style="display:none">
+					<center>
+						<h1><b> ORGANISASI
+					</center>
+					<br>
+					<h2><b><u> Bulu Tangkis </u></b></h2>
+						<img src="Organisasi/Bulu_Tangkis.jpg" class="w3-panel" style="width:15%"> 
+						<p><h4>
+							Saya awal mengikuti organisasi Bulu Tangkis di luar sekolah dari kelas 5 SD sampai kelas 6 semester 2, 
+							saya keluar dari organisasi tersebut dikarenakan Gor Koni yang berada di Jl.Jakarta yang dekat rumah 
+							mau renovasi sedangkan Gor penggantinya lumayan jauh di daerah Kopo. Saya lanjut mengikuti organisasi
+							Bulu Tangkis pas saya masuk SMP, disana saya bergabung dengan klub ekstrakurikuler Bulu Tangkis Di sekolah.
+						</p>
+					<br>
+					<h2><b><u> Digital </u></b></h2>
+						<img src="Organisasi/Digital.png" class="w3-panel" style="width:15%"> 
+						<p><h4>
+							Saya awal mengikuti organisasi atau ekstrakurikuler Digital saat saya awal mula masuk SMA. Digital adalah
+							organisasi yang mempelajari dunia teknologi, organisasi tersebut memiliki 6 divisi yaitu : Desain Grafis, 
+							E-Sport, Programming, Robotik, Video Editing, Aplikasi Perkantoran.
+						</p>
+					<br>
+					<h2><b><u> Palang Merah Remaja </u></b></h2>
+						<img src="Organisasi/PMR.jpg" class="w3-panel" style="width:15%"> 
+						<p><h4>
+							Saya awal mengikuti organisasi atau ekstrakurikuler PMR saat saya awal mula masuk SMA. Ekstrakurikuler 
+							Palang Merah Remaja (PMR) merupakan salah satu ekstrakurikuler yang bergerak dibidang kepalangmerahan 
+							dimana ekstrakurikuler Palang Merah Remaja (PMR) adalah wadah pembinaan anggota remaja dengan tujuan 
+							membangun dan mengembangkan karakter anggota PMR yang berpedoman pada tribakti PMR dan prinsip 
+							kepalangmerahan untuk menjadi relawan masa depan.
+						</p>
+					<br>
+					<h2><b><u> Bola Voli </u></b></h2>
+						<img src="Organisasi/Bola_Voli.jpg" class="w3-panel" style="width:15%"> 
+						<p><h4>
+							Saya awal mengikuti organisasi atau UKM Bola Voli saat saya awal mula masuk Universitas. Sebuah Unit 
+							Kegiatan Mahasiswa (UKM) Bola voli yang berada di Universitas Komputer Indonesia (UNIKOM).
+						</p>	
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="sd" class="w3-panel foto w3-animate-left w3-gray w3-round-xlarge" style="display:none">
+					<h1><b> SDN 191 BABAKAN SURABAYA KOTA BANDUNG </h1>
+					<hr>
+					<p>
+						<img src="Education/SD.jpeg" class="w3-panel" style="width:24%"> 
+					</p>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="smp" class="w3-panel foto w3-animate-right w3-gray w3-round-xlarge" style="display:none">
+					<h1><b> SMP KARTIKA XIX - 1 BANDUNG </h1>
+					<hr>
+					<p>
+						<img src="Education/SMP.jpg" class="w3-panel" style="width:33%"> 
+					</p>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="sma" class="w3-panel foto w3-animate-left w3-gray w3-round-xlarge" style="display:none">
+					<h1><b> SMA KARTIKA XIX - 1 BANDUNG </h1>
+					<hr>
+					<p>
+						<img src="Education/SMA.jpg" class="w3-panel" style="width:29%"> 
+					</p>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="universitas" class="w3-panel foto w3-animate-left w3-gray w3-round-xlarge" style="display:none">
+					<h1><b> Universitas Komputer Indonesia </h1>
+					<hr>
+					<p>
+						<img src="Education/UNIKOM.jpg" class="w3-panel" style="width:43%"> 
+					</p>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div id="myprofile" class="w3-panel foto w3-animate-zoom w3-gray w3-round-xlarge" style="display:none">
+				<center>
+					<img src="MyProfile/Rangga.jpg" class="w3-panel w3-circle" style="width:40%"> 
+				</center>
+				<div class="w3-panel w3-blue w3-round-xlarge">
+					<center>
+					<p>
+						<h2><b> Rangga Arya Daffa Putra Kusdiana </h2>
+					</p>
+					<p>
+						<h2><b> 10123081 </h2>
+					</p>
+					<p>
+						<h2><b> IF-2 </h2>
+					</p>
+					<p>
+						<h2><b> UNIVERSITAS KOMPUTER INDONESIA </h2>
+					</p>
+					</center>
+				</div>
+			</div>
+		<script>
+			function openFoto(namafoto) 
+			{
+				var i;
+				var x = document.getElementsByClassName("foto");
+				for (i = 0; i < x.length; i++) 
+				{
+					x[i].style.display = "none";
+				}
+				document.getElementById(namafoto).style.display = "block";
+			}
+			</script>
+	</body>
+</html>
